@@ -1,0 +1,151 @@
+/* SearchResults.css */
+
+.search-results {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.book-item {
+  flex-basis: 48%;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #cad2c5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.book-cover-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.book-cover {
+  width: 250px;
+  cursor: pointer;
+  margin: 0 auto;
+}
+
+.click-me {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #354f52;
+}
+
+.book-details {
+  margin-bottom: 10px;
+}
+
+.book-title {
+  margin: 0;
+  color: #52796f;
+  word-wrap: break-word;
+}
+
+.book-authors {
+  margin: 0;
+  color: #52796f;
+  word-wrap: break-word;
+}
+
+.add-button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+.add-button {
+  padding: 5px 10px;
+  background-color: #52796f;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+hr {
+  margin: 5px 0;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+.book-pop-up {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.book-pop-up-content {
+  max-width: 1000px; 
+  height: 600px; 
+  overflow-y: auto;
+  padding: 20px;
+  background-color: #cad2c5;
+  border-radius: 4px;
+}
+
+.pop-up-header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.pop-up-book-cover-container {
+  margin-right: 20px;
+  border-radius: 5px;
+}
+
+.pop-up-book-cover {
+  width: 200px;
+  height: 270px;
+}
+
+.pop-up-book-details {
+  flex-grow: 1;
+}
+
+.pop-up-book-title {
+  margin: 0;
+  color: #52796f;
+}
+
+.pop-up-book-authors {
+  margin: 0;
+  color: #52796f;
+}
+
+.pop-up-book-description {
+  margin-bottom: 20px;
+}
+
+.close-button {
+  padding: 5px 10px;
+  background-color: #52796f;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.error-message1 {
+  color: black;
+}
+
+.error-message2 {
+  color: #fff;
+}

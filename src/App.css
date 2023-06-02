@@ -1,0 +1,304 @@
+.page{
+  background-color: #cad2c5;
+  text-align: center;
+}
+#accountPage{
+  background-color: #354f52;
+
+}
+.navsection{
+  background-color: #52796f;
+  font-size: 30px;
+}
+#logo{
+  width: 10%;
+}
+.link{
+  text-decoration: none;
+  padding: 20px;
+  color: #cad2c5;
+}
+.link:hover{
+  color:#354f52;
+}
+#logOut{
+  margin-left: 600px;
+
+}
+
+.row{
+  display:flex;
+}
+.loginsection{
+  background-color: #354f52;;
+  padding: 40px;
+  flex: 50%;
+  color: white;
+}
+
+input[type="email"] {
+  margin: 0 auto;
+  width: 500px;
+  text-align: center;
+  }
+
+input[type="password"] {
+  margin: 0 auto;
+  width: 500px;
+  text-align: center;
+  }
+
+#summary{
+  font-size: 24px;
+  text-align: justify;
+}
+#goal{
+  padding: 0px 75px;
+}
+
+#carousel{
+  margin: auto;
+  width: 550px;
+  padding: 70px;
+  background-color: #cad2c5;
+  border-radius: 3px;
+}
+
+.book-summary {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 80%;
+  padding: 20px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0s linear 0.3s;
+}
+
+.carousel-item:hover .book-summary {
+  opacity: 1;
+  visibility: visible;
+  transition-delay: 0s;
+}
+
+#cover{
+  width: 300px;
+  padding: 50px;
+  margin: -20px 80px 50px;
+  border-radius: 8px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+}
+.column2{
+  float: left;
+}
+#left{
+  width:40%;
+}
+
+/* Clear floats after the columns */
+.book:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+#description{
+  padding: 20px;
+  margin: 35px 0px 35px 0px;
+  font-size: 16px;
+  text-align: justify;
+  border-radius: 8px;
+  background-color: #52796f;
+  color: white;
+  width: 700px;
+  height: 300px;
+  overflow-y: auto;
+}
+#description{
+  font-size: 16px;
+  text-align: justify;
+  border-radius: 8px;
+  background-color: #52796f;
+  color: white;
+}
+
+#synopses{
+  text-decoration: underline;
+}
+
+.border-section {
+  border: none;
+  height: 50px;
+  background-color: #354f52;
+  margin: 0;
+  width: 100%;
+  color: #fff;
+  font-size: 30px;
+}
+
+#addBttn{
+  margin-top: 150px;
+  margin-left: 30px;
+  padding: 15px 50px;
+  border-style: none; 
+}
+h2{
+  padding: 60px 0px;
+}
+#mission{
+  padding-left: 80px;
+  font-size: 40px;
+  padding-bottom: 10px;
+}
+.bttn{
+  padding: 15px 50px;
+  border-radius: 8px;
+  border-style: none;
+  background-color: #84a98c;
+  color: white;
+}
+
+.bttn:hover{
+  cursor: pointer;
+  color: rgb(195, 194, 194);
+  background-color: #52796f;
+}
+
+#complete{
+  margin-right: 1430px;
+}
+#completed{
+  margin-right: 1430px;
+  background-color: #354f52;
+
+}
+#findout{
+  padding: 15px 30px;
+  margin-left: 75px;
+}
+.footer{
+  background-color: #52796f;
+  height: 300px;
+}
+.innerFooter{
+  padding-top: 60px;
+}
+#cover2{
+  width: 60%;
+  float: left;
+  padding: 20px;
+  margin: 50px;
+  border-radius: 3px;
+}
+#myNotes{
+  width: 60%;
+}
+
+.notesInput{
+  width: 70%;
+  height: 200px;
+  background-color: #354f52;
+  color: white;
+  border-style: none;
+  border-radius: 8px;
+  margin-top: 70px;
+  margin-left: 30px;
+  resize: none;
+
+}
+#addBttn{
+  margin-top: 150px;
+  margin-left: -150px;
+  padding: 15px 50px;
+  border-radius: 3px;
+  border-style: none;
+  background-color: #84a98c;
+  color: white;
+}
+h2{
+  padding: 60px 0px;
+}
+#mission{
+  padding-left: 80px;
+  font-size: 40px;
+}
+.bttn{
+  padding: 15px 50px;
+  border-radius: 8px;
+  border-style: none;
+  background-color: #84a98c;
+  color: white;
+}
+#findout{
+  padding: 15px 30px;
+  margin-left: 75px;
+}
+.footer{
+  background-color: #52796f;
+  height: 300px;
+}
+.innerFooter{
+  padding-top: 60px;
+}
+.bttnNotes{
+  border-radius: 8px;
+  border-style: none;
+  background-color: #84a98c;
+  color: white;
+  padding: 15px 30px;
+  margin-left: 20px;
+}
+#currentNote{
+  margin-left: 95px;
+  margin-top: 30px;
+}
+#notesSummary{
+  font-size: 20px;
+  padding: 10px 30px;
+  text-align: justify;
+}
+.star {
+  color: grey;
+  cursor: pointer;
+  font-size: 40px;
+}
+.selected {
+  color: gold;
+}
+
+.circle-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  font-size: 88px;
+}
+
+.circle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  background-color: #84a98c;
+  margin: 50px 80px;
+  border-color: #354f52;
+}
+
+.circle-text {
+  font-size: 25px;
+  color: #354f52;
+  font-weight: bold;
+  margin-top: 10px;
+  text-align: center;
+}

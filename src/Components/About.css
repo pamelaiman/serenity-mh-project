@@ -1,0 +1,59 @@
+.page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.content {
+  flex-grow: 1;
+  background-color: #354f52;
+}
+
+.about-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.team-members,
+.mission {
+  flex: 1 1 50%;
+  padding: 20px;
+  color: white;
+}
+
+.team-members h2,
+.mission h2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+.team-members ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.team-members li {
+  margin-bottom: 10px;
+}
+
+.mission {
+  font-size: 40px;
+}
+
+.mission p {
+  font-size: 30px;
+}
+
+.Footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
